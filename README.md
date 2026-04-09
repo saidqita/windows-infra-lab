@@ -8,15 +8,7 @@ A virtualised small-enterprise environment built in Hyper-V as part of a system 
 
 Everything runs on a single physical host. Two private Hyper-V switches segment the network: one for servers and the admin workstation (SW_SRV), one for regular clients (SW_CLIENT). pfSense sits between them and the internet.
 
-```
-Internet
-    │
-[Default Switch / NAT]
-    │
-[pfSense]
-    ├── LAN  ──────── SW_SRV ──── DC1, DC2, DHCP1, PRTG, PrivClient-PAW
-    └── LANclients ── SW_CLIENT ── CLIENT01
-```
+![Hyper-V VMs](screenshots/topology.png)
 
 ### Machines
 
@@ -29,8 +21,6 @@ Internet
 | PRTG | Monitoring | Windows Server 2025 |
 | PrivClient-PAW | Privileged Access Workstation | Windows 11 Enterprise |
 | CLIENT01 | Standard client | Windows 11 Enterprise |
-
-> [Insert screenshot: Hyper-V Manager showing all VMs]
 
 ---
 
