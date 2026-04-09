@@ -1,6 +1,6 @@
 # Windows Server Infrastructure Lab
 
-A virtualised small-enterprise environment built in Hyper-V as part of a system administration course. Two labs — the first focused on standing up the infrastructure, the second on identity management, access control and monitoring.
+A virtualised small-enterprise environment built in Hyper-V as part of a system administration course. Still ongoing...
 
 ---
 
